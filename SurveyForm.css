@@ -1,0 +1,75 @@
+body {
+  background: #6190e8;
+  background: -webkit-linear-gradient(to right, #a7bfe8, #6190e8);
+  background: linear-gradient(to right, #a7bfe8, #6190e8);
+  font-family: sans-serif;
+  margin: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  color: #6190e8;
+  margin-top: auto;
+}
+
+#form-container-L {
+  padding: 30px;
+  background-color: whitesmoke;
+  width: 60%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.forms, .age-group, .proficiency, .comment-box, #form-container-R {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.radio-option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.radio-option input {
+  margin-right: 10px;
+}
+
+.comment-box textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  height: 40px;
+  width: 100%;
+  background: #6190e8;
+  background: -webkit-linear-gradient(to right, #a7bfe8, #6190e8);
+  background: linear-gradient(to right, #a7bfe8, #6190e8);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  color: black;
+}
